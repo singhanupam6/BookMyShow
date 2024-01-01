@@ -1,0 +1,12 @@
+
+Manager:    username:  Manager      password:   password2
+
+insert into user(id,password,role,username) values(2,"$2a$12$oxBA9t3/pGOTYV5kaK3jXerbZ9fNeQqJ2qyeDW1xVlkhDQOTzDA5C","manager","Manager");
+
+Customer1:   username:   Customer1   password:   passwordc1
+
+insert into user(id,password,role,username) values(3,"$2a$12$Xw5oXbRiywwAeGbZOdCqa.5iziHWhACwucghdlPUG9I/teZvG8aaG","customer","Customer1");
+
+Customer2:  username:   Customer2   password:   passwordc2
+
+insert into user(id,password,role,username) values(4,"$2a$12$h0RjregyKlEmYrlLqCB5IuhMJJAUuIMfnOibxooCQZEtpBbmHtaDi","customer","Customer2");
